@@ -12,3 +12,5 @@ df['new'] = df['W'] + df['Y']
 print(df)
 
 df.drop('new',axis = 1)
+df
+df.drop('new',axis = 1,inplace = True
