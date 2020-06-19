@@ -9,3 +9,12 @@ d = {'a':10,'b':20,'c':30}
 pd.Series(data = my_data, index = labels)
 pd.Series(arr,labels)
 pd.Series(d)
+
+ser1 = pd.Series([10,20,30,40],['USA','Germany','USSR','Japan'])
+ser2 = pd.Series([1,2,5,4],['USA','Germany','Italy','Japan'])
+
+ser1['USA']
+
+ser3 = pd.Series(labels)
+
+print(ser1 + ser2)
