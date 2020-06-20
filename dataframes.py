@@ -27,3 +27,26 @@ df.loc['A']
 df.iloc[0]
 df.loc['B','Y']
 df.loc[['A','B'],['W','Y']]
+
+#conditional selection
+
+df > 0
+booldf = df > 0
+df[booldf]
+df[df>0]
+
+df['W'] > 0
+df[df['W']>0]
+df[df['Z'] <0]
+df[df['W']>0]['X']
+
+# when series of boolean values are compared use '&' instead of 'and'
+df[(df['W'] > 0) & (df['Y'] > 0)]
+
+new_ind = 'CA NY WY OR CO'.split()
+new_ind
+df['States'] = new_ind
+df.set_index('States')
+df
+df.set_index('States',inplace = True)
+df
