@@ -12,7 +12,6 @@
 - Different operation on data frame
  - column addition
  - column deletion
- - column rearrangement
  - column creation
 - Filtering data
 - Conditional changes
