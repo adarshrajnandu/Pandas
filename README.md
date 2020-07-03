@@ -13,6 +13,8 @@
  - column addition
  - column deletion
  - column creation
+ - column truncation
+ - Handling missing data
 - Filtering data
 - Conditional changes
 - Aggregate operations
